@@ -1,0 +1,32 @@
+(footprint "LED-ARRAY-SMD_3P-L3.0-W2.0-L-FD" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (property "Sheetfile" "electronics.kicad_sch")
+  (property "Sheetname" "")
+  (attr smd)
+  (fp_text reference "D2" (at -1.17 -2.75) (layer "F.SilkS")
+    (effects (font (size 1.143 1.143) (thickness 0.152)) (justify left))
+    (tstamp 9f3fc9bd-2672-42cd-8d36-01d865fd7696)
+  )
+  (fp_text value "LED_Dual_KKA" (at -5.85 1.55) (layer "F.Fab") hide
+    (effects (font (size 1.143 1.143) (thickness 0.152)) (justify left))
+    (tstamp 08ee0a03-041e-48c6-ac5c-463bcbc19273)
+  )
+  (fp_rect (start -1.5 -0.8) (end 1.5 0.2) (layer "Eco2.User") (width 0.12) (fill none) (tstamp c3f02c9f-b88d-4ff4-8717-710a68332946))
+  (fp_arc (start -1.15 -0.85) (mid 0 -1.830459) (end 1.15 -0.85) (layer "Eco2.User") (width 0.12) (tstamp a4ee7644-2cc7-4084-a760-ec81083b1e65))
+  (fp_rect (start -2.59 -1.94) (end 2.64 0.8) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 71bdaa42-11fd-4f32-a941-302978fc05bf))
+  (pad "1" smd rect (at -1.75 -0.326 90) (size 1.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7d226d7d-8ca8-463c-98d8-b8fab83ce750))
+  (pad "2" smd rect (at 0 0.326) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2cb89ecb-3426-43e6-98c2-bc46d5f6d5c3))
+  (pad "3" smd rect (at 1.75 -0.326 90) (size 1.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3b626258-e3ba-4dab-8da1-02abb76ca20c))
+  (group "" (id a0fc26b1-6856-4e47-936d-6b7d1264d0ac)
+    (members
+      a4ee7644-2cc7-4084-a760-ec81083b1e65
+      c3f02c9f-b88d-4ff4-8717-710a68332946
+    )
+  )
+  (model "${KIPRJMOD}/lib.pretty/Everlight Elec 12-22BHR6C-A012C.step"
+    (offset (xyz -1.5 0.1 1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 -90))
+  )
+)

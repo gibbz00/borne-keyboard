@@ -1,0 +1,4 @@
+(version 1)
+(rule "Clearance track_to_Pads"
+(constraint clearance (min 0.2mm))
+(condition "A.Type =='Track' && B.Type =='Pad' && A.Net != B.Net "))

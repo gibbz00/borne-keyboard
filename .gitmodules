@@ -1,0 +1,6 @@
+[submodule "firmware/Adafruit_nRF52_Bootloader"]
+	path = firmware/Adafruit_nRF52_Bootloader
+	url = https://github.com/gibbz00/Adafruit_nRF52_Bootloader
+[submodule "firmware/zmk"]
+	path = firmware/zmk
+	url = https://github.com/gibbz00/zmk

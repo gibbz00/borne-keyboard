@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name "ESDR0502NMUTAG")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty/ESDR0502NMUTAG.kicad_sym")(options "")(descr ""))
+  (lib (name "Kailh_socket_PG1350")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty/Kailh_socket_PG1350.kicad_sym")(options "")(descr ""))
+  (lib (name "SK3296S01L3")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty/SK3296S01L3.kicad_sym")(options "")(descr ""))
+  (lib (name "Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty/Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical.kicad_sym")(options "")(descr ""))
+  (lib (name "MICRO-USB-SMD_U-C-M5DD-W-1")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty/MICRO-USB-SMD_U-C-M5DD-W-1.kicad_sym")(options "")(descr ""))
+  (lib (name "mounting-hole")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty/mounting-hole.kicad_sym")(options "")(descr ""))
+  (lib (name "net-tie-2-tiny")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty/net-tie-2-tiny.kicad_sym")(options "")(descr ""))
+  (lib (name "2.4GHz-meander-antenna-v2")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty/2.4GHz-meander-antenna-v2.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ24075RGT")(type "KiCad")(uri "${BORNE_LIB}/BQ24075RGT.kicad_sym")(options "")(descr ""))
+)
