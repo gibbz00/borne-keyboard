@@ -6,7 +6,7 @@ Source files for the Borne Keyboard; a wireless, split, 36-key, orthogonal keybo
 Also of low profile at a max height of about 17 mm (0.67 in).
 Ready-made ZMK and Adafruit nrf52 bootloader binaries are placed in the `firmware/builds` directory.
 
-**PLEASE NOTE THAT V1 IS A WORKING PROOF OF CONCEPT. Don't copy this project mindlessly and expect everything to work out of the box. I have notes containing over 500 points of improvements or cautions when working on this project.**
+**PLEASE NOTE THAT V1 IS A WORKING PROOF OF CONCEPT. Don't copy this project mindlessly and expect everything to work out of the box. I have notes containing over 500 points of improvements or cautions when working on this project, many of which to be added as repo issues in the near future.**
 
 Kicad 6 and its component libraries are required to properly explore the majority of electronic design files. 
 
@@ -16,11 +16,29 @@ Arch users simply install `kicad-library` and `kicad-library-3d-nightly` from th
 
 # Customizing the keymap with ZMK
 
-Customizing ZMK without having the compiler toolchain installed can be done by leveraging GitHub Actions: https://zmk.dev/docs/user-setup
+Necessary ZMK know-how can be found in its official documentation or in its welcoming community discord server: 
 
-I haven't yet had the time to set this up with the Borne Keyboard (coming very soon), hence the quick write-up on how to build the firmware locally.
+https://zmk.dev/docs
+https://zmk.dev/community/discord/invite
 
-Issues with ZMK are often covered by its official documentation or in its vibrant and welcoming discord server: https://zmk.dev/community/discord/invite
+## Building with GitHub Actions
+
+Allows for keymap customizations to be done without going through the hassle of installing the respective toolchains. It works by automating firmware builds on a "cloud" server upon repository changes.
+
+#### Repo setup (only once)
+Log in/sign up to a personal GitHub account.
+Fork https://github.com/gibbz00/borne-zmk-config
+#### Keymap updates
+Edit `config/borne.keymap` to your needs.
+Commit and push changes to your personal repo.
+#### Retrieving firmware images
+In the browser; navigate to "Actions".
+Select the latest workflow run.
+A "firmware" artifact should appear if all went well, clicking on it should start a zip download, unzip it once completed.
+#### Flashing the keyboard
+Only the left shield/half/side needs to be built to update the keymap.
+Connect the half over USB, put it in bootloader mode (double press reset), and make sure the device storage is mounted. 
+Last step is to copy over the `borne_left-borne-zmk.uf2` file to the new USB storage device and wait until the blue LED stops blinking rapidly. And that's it!
 
 ## Local builds and flashing
 
@@ -59,7 +77,7 @@ firmware/zmk/app/boards/shields/borne-keyboard/borne.keymap
 
 ### Building ZMK
 
-Only the left shield (half) needs to be built to update the keymap:
+Only the left shield/half/side needs to be built to update the keymap:
 ```
 # in the firmware/zmk/app directory
 west build -d build/left --pristine --board borne -- -DSHIELD=borne_left
@@ -80,5 +98,3 @@ Multiple ways of building and then flashing the boards over UART is explained in
 I only got flashing with OpenOCD on the Raspberry Pi 4 to work.
 The hardware specific `openocd.cfg` is found in the `firmware` directory.
 Additional resources on how to flash the nrf5240 with OpenOCD and a Raspberry Pi 4 are found at: https://www.rototron.info/circuitpython-nrf52840-dongle-openocd-pi-tutorial/
-
-Happy tinkering!
