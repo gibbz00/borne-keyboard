@@ -19,6 +19,7 @@ Arch users simply install `kicad-library` and `kicad-library-3d-nightly` from th
 Necessary ZMK know-how can be found in its official documentation or in its welcoming community discord server: 
 
 https://zmk.dev/docs
+
 https://zmk.dev/community/discord/invite
 
 ## Building with GitHub Actions
