@@ -29,7 +29,7 @@ Allows for keymap customizations to be done without going through the hassle of 
 Log in/sign up to a personal GitHub account.
 Fork https://github.com/gibbz00/borne-zmk-config
 #### Keymap updates
-Edit `config/borne.keymap` to your needs.
+Edit `config/borne.keymap`.
 Commit and push changes to your personal repo.
 #### Retrieving firmware images
 In the browser; navigate to "Actions".
