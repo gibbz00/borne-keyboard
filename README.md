@@ -39,7 +39,7 @@ A "firmware" artifact should appear if all went well, clicking on it should star
 #### Flashing the keyboard
 Only the left shield/half/side needs to be built to update the keymap.
 Connect the half over USB, put it in bootloader mode (double press reset), and make sure the device storage is mounted. 
-Last step is to copy over the `borne_left-borne-zmk.uf2` file to the new USB storage device and wait until the blue LED stops blinking rapidly. And that's it!
+Last step is to copy over the `borne_left-borne-zmk.uf2` file to the new USB storage device and wait until the blue LED stops blinking rapidly.
 
 ## Local builds and flashing
 
