@@ -1,6 +1,6 @@
 # Introducing the Borne Keyboard
 
-![showcase image](images/first.jpg)
+![showcase image](images/showcase.jpg)
 
 Source files for the Borne Keyboard; a wireless, split, 36-key, orthogonal keyboard with a comparatively large battery capacity that should last over two months.
 Also of low profile at a max height of about 17 mm (0.67 in).
