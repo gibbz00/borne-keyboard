@@ -1,11 +1,12 @@
+# Introducing the Borne Keyboard
 
-# Introducing the Borne Keyboard V1
+![showcase image](images/first.jpg)
 
 Source files for the Borne Keyboard; a wireless, split, 36-key, orthogonal keyboard with a comparatively large battery capacity that should last over two months.
 Also of low profile at a max height of about 17 mm (0.67 in).
 Ready-made ZMK and Adafruit nrf52 bootloader binaries are placed in the `firmware/builds` directory.
 
-**PLEASE NOTE THAT V1 IS A WORKING PROOF OF CONCEPT. Don't copy this project mindlessly and expect everything to work out of the box. I have notes containing over 500 points of improvements or cautions when working on this project, many of which are design issues to be fixed for V2.**
+**PLEASE NOTE THAT V1 IS A WORKING PROOF OF CONCEPT. Don't copy this project mindlessly and expect everything to work out of the box. I have notes containing over 500 points of improvements or cautions when working on this project.**
 
 Kicad 6 and its component libraries are required to properly explore the majority of electronic design files. 
 
