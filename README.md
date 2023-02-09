@@ -1,4 +1,4 @@
-# Introducing the Borne Keyboard
+Borne V1 Keyboard
 
 ![showcase image](images/showcase.jpg)
 
