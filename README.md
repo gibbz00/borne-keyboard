@@ -1,4 +1,4 @@
-Borne V1 Keyboard
+# Borne V1 Keyboard
 
 ![showcase image](images/showcase.jpg)
 
