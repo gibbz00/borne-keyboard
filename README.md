@@ -6,7 +6,7 @@ Source files for the Borne Keyboard; a wireless, split, 36-key, orthogonal keybo
 Also of low profile at a max height of about 17 mm (0.67 in).
 Ready-made ZMK and Adafruit nrf52 bootloader binaries are placed in the `firmware/builds` directory.
 
-Current keyboard layout: http://www.keyboard-layout-editor.com/#/gists/0e81bf405ebbc268280f0506f7d0e771
+Currently rocking this keyboard layout: http://www.keyboard-layout-editor.com/#/gists/0e81bf405ebbc268280f0506f7d0e771
 
 **PLEASE NOTE THAT V1 IS A WORKING PROOF OF CONCEPT. Don't copy this project mindlessly and expect everything to work out of the box. I have notes containing over 500 points of improvements or cautions when working on this project, many of which to be added as repo issues in the near future.**
 
@@ -26,7 +26,7 @@ https://zmk.dev/community/discord/invite
 
 ## Building with GitHub Actions
 
-Allows for keymap customizations to be done without going through the hassle of installing the respective toolchains. It works by automating firmware builds on a "cloud" server upon repository changes.
+Allows for keymap customizations to be done without going through the hassle of installing the respective toolchains. It works by automating firmware builds on a cloud server upon repository changes.
 
 #### Repo setup (only once)
 Log in/sign up to a personal GitHub account.
