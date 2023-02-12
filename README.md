@@ -2,6 +2,8 @@
 
 ![showcase image](images/showcase.jpg)
 
+V2 interest check is now live: https://www.reddit.com/r/mechmarket/comments/10xzn65/ic_borne_v2_a_slim_wireless_and_split_keyboard/
+
 Source files for the Borne Keyboard; a wireless, split, 36-key, orthogonal keyboard with a comparatively large battery capacity that should last over two months.
 Also of low profile at a max height of about 17 mm (0.67 in).
 Ready-made ZMK and Adafruit nrf52 bootloader binaries are placed in the `firmware/builds` directory.
