@@ -1,6 +1,6 @@
 # Borne V1 Keyboard
 
-![showcase image](images/showcase.jpg)
+![showcase image](images/v1/showcase.jpg)
 
 V2 interest check is now live: https://www.reddit.com/r/mechmarket/comments/10xzn65/ic_borne_v2_a_slim_wireless_and_split_keyboard/
 
