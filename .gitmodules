@@ -1,6 +1,12 @@
 [submodule "firmware/Adafruit_nRF52_Bootloader"]
 	path = firmware/Adafruit_nRF52_Bootloader
-	url = https://github.com/gibbz00/Adafruit_nRF52_Bootloader
+	url = https://github.com/whiz00/Adafruit_nRF52_Bootloader
+[submodule "firmware/blackmagic"]
+	path = firmware/blackmagic
+	url = https://github.com/blackmagic-debug/blackmagic
+[submodule "firmware/blackmagic-bluepill"]
+	path = firmware/blackmagic-bluepill
+	url = https://github.com/koendv/blackmagic-bluepill
 [submodule "firmware/zmk"]
 	path = firmware/zmk
-	url = https://github.com/gibbz00/zmk
+	url = https://github.com/zmkfirmware/zmk.git

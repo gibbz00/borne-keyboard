@@ -1,3 +1,7 @@
 (fp_lib_table
+  (version 7)
   (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty")(options "")(descr ""))
+  (lib (name "Inductor_SMD")(type "KiCad")(uri "${KICAD7_FOOTPRINT_DIR}/Inductor_SMD.pretty")(options "")(descr ""))
+  (lib (name "Package_DFN_QFN")(type "KiCad")(uri "${KICAD7_FOOTPRINT_DIR}/Package_DFN_QFN.pretty")(options "")(descr ""))
+  (lib (name "TestPoint")(type "KiCad")(uri "${KICAD7_FOOTPRINT_DIR}/TestPoint.pretty")(options "")(descr ""))
 )
