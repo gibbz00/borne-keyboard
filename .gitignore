@@ -3,3 +3,4 @@
 *.kicad_prl
 **/OldVersions/*
 **/#auto_saved_files#
+**.bak
