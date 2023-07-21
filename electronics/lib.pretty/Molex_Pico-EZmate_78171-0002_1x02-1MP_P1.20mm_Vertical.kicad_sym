@@ -12,7 +12,7 @@
     (property "Datasheet" "" (at 2.54 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer Part" "Molex_Pico-EZmate_78171-0002" (at 0.635 -17.145 0)
+    (property "Manufacturer Part" "781710002" (at 0.635 -17.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part" "C505023" (at -0.635 -13.97 0)
