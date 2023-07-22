@@ -5256,7 +5256,7 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 267.97 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06dcdb71-439e-4083-adb2-9e5596d70079)
-    (property "Reference" "U12" (at 268.605 41.275 0)
+    (property "Reference" "SW12" (at 268.605 41.275 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CPG135001S30" (at 268.605 43.815 0)
@@ -5282,7 +5282,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U12") (unit 1)
+          (reference "SW12") (unit 1)
         )
       )
       (project "electronics"
@@ -5299,7 +5299,7 @@
   (symbol (lib_id "MCU_Nordic:nRF52840") (at 111.76 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 099f642a-404d-4520-ab31-e5af17fca236)
-    (property "Reference" "U22" (at 85.09 280.67 0)
+    (property "Reference" "U1" (at 85.09 280.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "nRF52840" (at 92.71 280.67 0)
@@ -5400,7 +5400,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U22") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
       (project "electronics"
@@ -5716,10 +5716,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 204.47 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20f15765-581a-434c-876d-a2e136be47d5)
-    (property "Reference" "U4" (at 205.105 28.101 0)
+    (property "Reference" "SW4" (at 205.105 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 205.105 30.6379 0)
+    (property "Value" "CPG135001S30" (at 205.105 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 206.375 45.72 0)
@@ -5742,7 +5742,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U4") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
       (project "electronics"
@@ -6014,10 +6014,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 113.03 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 294e8c55-3ec9-47a4-981c-93363005c904)
-    (property "Reference" "U7" (at 113.665 42.071 0)
+    (property "Reference" "SW7" (at 113.665 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 113.665 44.6079 0)
+    (property "Value" "CPG135001S30" (at 113.665 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 114.935 59.69 0)
@@ -6040,7 +6040,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U7") (unit 1)
+          (reference "SW7") (unit 1)
         )
       )
       (project "electronics"
@@ -6369,7 +6369,7 @@
   (symbol (lib_id "Switch:SW_DPST_x2") (at 57.15 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35e72ce7-74f0-4d03-ada0-3d024fa90f84)
-    (property "Reference" "SW1" (at 59.69 250.19 0)
+    (property "Reference" "SW22" (at 59.69 250.19 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "EVQPUC02K" (at 60.96 252.73 0)
@@ -6397,7 +6397,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "SW1") (unit 1)
+          (reference "SW22") (unit 1)
         )
       )
       (project "electronics"
@@ -6447,10 +6447,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 173.99 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3afdc18f-79d2-4f78-b224-328c95b0b106)
-    (property "Reference" "U9" (at 174.625 42.071 0)
+    (property "Reference" "SW9" (at 174.625 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 174.625 44.6079 0)
+    (property "Value" "CPG135001S30" (at 174.625 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 175.895 59.69 0)
@@ -6473,7 +6473,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U9") (unit 1)
+          (reference "SW9") (unit 1)
         )
       )
       (project "electronics"
@@ -6556,10 +6556,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 266.7 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 420ed546-658e-4f45-8794-4db29270845a)
-    (property "Reference" "U18" (at 267.335 56.515 0)
+    (property "Reference" "SW18" (at 267.335 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 267.335 59.055 0)
+    (property "Value" "CPG135001S30" (at 267.335 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 268.605 74.93 0)
@@ -6582,7 +6582,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U18") (unit 1)
+          (reference "SW18") (unit 1)
         )
       )
       (project "electronics"
@@ -7014,10 +7014,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 114.3 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5daa7263-58b5-40b2-9975-08ca85fb1b8e)
-    (property "Reference" "U19" (at 114.935 72.551 0)
+    (property "Reference" "SW19" (at 114.935 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 114.935 75.0879 0)
+    (property "Value" "CPG135001S30" (at 114.935 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 116.205 90.17 0)
@@ -7040,7 +7040,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U19") (unit 1)
+          (reference "SW19") (unit 1)
         )
       )
       (project "electronics"
@@ -7090,10 +7090,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 236.22 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5efbb056-e9d1-41d8-bc82-8f6b0467d7ba)
-    (property "Reference" "U11" (at 236.855 42.071 0)
+    (property "Reference" "SW11" (at 236.855 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 236.855 44.6079 0)
+    (property "Value" "CPG135001S30" (at 236.855 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 238.125 59.69 0)
@@ -7116,7 +7116,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U11") (unit 1)
+          (reference "SW11") (unit 1)
         )
       )
       (project "electronics"
@@ -7653,10 +7653,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 267.97 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76685f75-2128-423f-91b7-6026958e999e)
-    (property "Reference" "U6" (at 268.605 27.305 0)
+    (property "Reference" "SW6" (at 268.605 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 268.605 29.845 0)
+    (property "Value" "CPG135001S30" (at 268.605 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 269.875 45.72 0)
@@ -7679,7 +7679,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U6") (unit 1)
+          (reference "SW6") (unit 1)
         )
       )
       (project "electronics"
@@ -8104,7 +8104,7 @@
   (symbol (lib_id "ESDR0502NMUTAG:ESDR0502NMUTAG") (at 178.308 292.1 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b4f8b9d-a690-4a9f-abd4-501c7f18f33e)
-    (property "Reference" "U23" (at 169.418 292.1 0)
+    (property "Reference" "U2" (at 169.418 292.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ESDR0502NMUTAG" (at 171.958 292.1 0)
@@ -8134,7 +8134,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U23") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
       (project "electronics"
@@ -8278,10 +8278,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 175.26 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90c64e51-3063-4964-90b9-dade3a3b6e28)
-    (property "Reference" "U21" (at 175.895 72.551 0)
+    (property "Reference" "SW21" (at 175.895 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 175.895 75.0879 0)
+    (property "Value" "CPG135001S30" (at 175.895 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 177.165 90.17 0)
@@ -8304,7 +8304,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U21") (unit 1)
+          (reference "SW21") (unit 1)
         )
       )
       (project "electronics"
@@ -8321,10 +8321,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 144.78 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92a94f42-492a-41a6-a5ae-5668cfaa91f7)
-    (property "Reference" "U20" (at 145.415 72.551 0)
+    (property "Reference" "SW20" (at 145.415 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 145.415 75.0879 0)
+    (property "Value" "CPG135001S30" (at 145.415 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 146.685 90.17 0)
@@ -8347,7 +8347,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U20") (unit 1)
+          (reference "SW20") (unit 1)
         )
       )
       (project "electronics"
@@ -8634,10 +8634,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 113.03 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a82e930a-762a-4283-b6b7-39761a178654)
-    (property "Reference" "U13" (at 113.665 57.311 0)
+    (property "Reference" "SW13" (at 113.665 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 113.665 59.8479 0)
+    (property "Value" "CPG135001S30" (at 113.665 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 114.935 74.93 0)
@@ -8660,7 +8660,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U13") (unit 1)
+          (reference "SW13") (unit 1)
         )
       )
       (project "electronics"
@@ -8802,10 +8802,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 204.47 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae21c730-e3c4-41de-89f8-4b1a8c69e2e4)
-    (property "Reference" "U16" (at 205.105 57.311 0)
+    (property "Reference" "SW16" (at 205.105 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 205.105 59.8479 0)
+    (property "Value" "CPG135001S30" (at 205.105 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 206.375 74.93 0)
@@ -8828,7 +8828,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U16") (unit 1)
+          (reference "SW16") (unit 1)
         )
       )
       (project "electronics"
@@ -8845,10 +8845,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 173.99 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae5f71b5-d74f-446b-8bfc-1c37c96d7afb)
-    (property "Reference" "U15" (at 174.625 57.311 0)
+    (property "Reference" "SW15" (at 174.625 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 174.625 59.8479 0)
+    (property "Value" "CPG135001S30" (at 174.625 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 175.895 74.93 0)
@@ -8871,7 +8871,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U15") (unit 1)
+          (reference "SW15") (unit 1)
         )
       )
       (project "electronics"
@@ -8888,7 +8888,7 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 204.47 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aeb5def9-e280-4da8-abf0-a6acbb14c158)
-    (property "Reference" "U10" (at 205.105 40.64 0)
+    (property "Reference" "SW10" (at 205.105 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CPG135001S30" (at 205.105 43.18 0)
@@ -8914,7 +8914,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U10") (unit 1)
+          (reference "SW10") (unit 1)
         )
       )
       (project "electronics"
@@ -9218,10 +9218,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 173.99 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4c1ea79-cbca-4d1d-b4d4-abbe3c7c6931)
-    (property "Reference" "U3" (at 174.625 28.101 0)
+    (property "Reference" "SW3" (at 174.625 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 174.625 30.6379 0)
+    (property "Value" "CPG135001S30" (at 174.625 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 175.895 45.72 0)
@@ -9244,7 +9244,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U3") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
       (project "electronics"
@@ -9360,10 +9360,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 113.03 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9e88ac4-29be-40cc-81c6-3f474eb19608)
-    (property "Reference" "U1" (at 113.665 28.101 0)
+    (property "Reference" "SW1" (at 113.665 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 113.665 30.6379 0)
+    (property "Value" "CPG135001S30" (at 113.665 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 114.935 45.72 0)
@@ -9386,7 +9386,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U1") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
       (project "electronics"
@@ -9699,7 +9699,7 @@
   (symbol (lib_id "Battery_Management:BQ24075RGT") (at 202.438 326.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d665b382-86ef-4956-ade2-4ad4d9dc69b4)
-    (property "Reference" "U24" (at 200.533 346.075 0)
+    (property "Reference" "U3" (at 200.533 346.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BQ24075RGT" (at 196.723 348.615 0)
@@ -9740,7 +9740,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U24") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
       (project "electronics"
@@ -9875,10 +9875,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 236.22 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de95e4d0-a687-40cc-993a-7b15bb4179f8)
-    (property "Reference" "U5" (at 236.855 28.101 0)
+    (property "Reference" "SW5" (at 236.855 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 236.855 30.6379 0)
+    (property "Value" "CPG135001S30" (at 236.855 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 238.125 45.72 0)
@@ -9901,7 +9901,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U5") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
       (project "electronics"
@@ -9988,10 +9988,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 143.51 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e35067a4-f5da-45e0-9a9a-9b6cadf35be8)
-    (property "Reference" "U8" (at 144.145 42.071 0)
+    (property "Reference" "SW8" (at 144.145 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 144.145 44.6079 0)
+    (property "Value" "CPG135001S30" (at 144.145 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 145.415 59.69 0)
@@ -10014,7 +10014,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U8") (unit 1)
+          (reference "SW8") (unit 1)
         )
       )
       (project "electronics"
@@ -10211,10 +10211,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 143.51 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f15718b7-8756-41b5-8660-19655f1b6ec7)
-    (property "Reference" "U14" (at 144.145 57.311 0)
+    (property "Reference" "SW14" (at 144.145 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 144.145 59.8479 0)
+    (property "Value" "CPG135001S30" (at 144.145 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 145.415 74.93 0)
@@ -10237,7 +10237,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U14") (unit 1)
+          (reference "SW14") (unit 1)
         )
       )
       (project "electronics"
@@ -10416,10 +10416,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 234.95 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f841bde4-a000-4271-8c44-dbbe9a700598)
-    (property "Reference" "U17" (at 235.585 57.311 0)
+    (property "Reference" "SW17" (at 235.585 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 235.585 59.8479 0)
+    (property "Value" "CPG135001S30" (at 235.585 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 236.855 74.93 0)
@@ -10442,7 +10442,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U17") (unit 1)
+          (reference "SW17") (unit 1)
         )
       )
       (project "electronics"
@@ -10495,10 +10495,10 @@
   (symbol (lib_id "Kailh_socket_PG1350:Choc v1 Socket") (at 143.51 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9489168-4b15-4ecc-acc9-9305136c9370)
-    (property "Reference" "U2" (at 144.145 28.101 0)
+    (property "Reference" "SW2" (at 144.145 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CPG135001S30" (at 144.145 30.6379 0)
+    (property "Value" "CPG135001S30" (at 144.145 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "lib:Kailh_socket_PG1350" (at 145.415 45.72 0)
@@ -10521,7 +10521,7 @@
     (instances
       (project "electronics"
         (path "/4cebd28d-42e6-457f-8e32-9d5ec83eb882"
-          (reference "U2") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
       (project "electronics"
